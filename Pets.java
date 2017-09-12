@@ -80,7 +80,7 @@ class ExamplesPet {
 	
 	boolean testPet(Tester t){
 		return 
-			t.checkExpect(this.shayne.isOlder(dianne), false) &&
+		    t.checkExpect(this.shayne.isOlder(dianne), false) &&
 		    t.checkExpect(this.franky.isOlder(danny),false) &&
 		    t.checkExpect(this.danny.isOlder(shayne),true) &&
 		    t.checkExpect(this.franky.isOlder(dianne),true) &&
