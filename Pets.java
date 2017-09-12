@@ -86,6 +86,5 @@ class ExamplesPet {
 		    t.checkExpect(this.franky.isOlder(dianne),true) &&
 		    t.checkExpect(this.dianne.isOlder(danny), false) &&
 		    t.checkExpect(this.franky.isOlder(shayne), true);
-		
 	}
 }
